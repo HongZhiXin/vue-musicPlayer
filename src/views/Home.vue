@@ -1,7 +1,7 @@
 <template>
   <div>
     <audio
-      src="http://mp3.9ku.com/hot/2010/05-27/315871.mp3"
+      src="../mp3/shuangjiegun.mp3"
       controls="controls"
       ref="audio"
       preload="auto"
@@ -31,6 +31,7 @@
 </template>
 <script>
 import lrc from "../lrc/index";
+
 export default {
   name: "Music",
   data() {
